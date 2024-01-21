@@ -26,7 +26,7 @@ const HomePage = () => {
       axios
         .get(`https://api.github.com/users/${userName}`, {
           headers: {
-            Authorization: "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",
+            Authorization: "git_access_token",
             Accept: "application/vnd.github.v3+json",
           },
         })
