@@ -1,0 +1,31 @@
+.container {
+  color: white;
+  padding: 0px 20px;
+  text-align: start;
+  min-height: 20vh;
+  box-shadow: rgba(249, 253, 253, 0.3) 0px 1px 2px 0px,
+    rgba(253, 254, 255, 0.15) 0px 2px 5px 5px;
+}
+
+.container > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container > div > p:nth-child(2) {
+  border: 1px solid grey;
+  font-size: 12px;
+  padding: 2px;
+  color: grey;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 20px;
+}
+.container > p:nth-child(2) {
+  font-size: 12px;
+  color: grey;
+}

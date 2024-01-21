@@ -1,0 +1,181 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  border: 1px solid grey;
+  overflow: hidden;
+}
+
+.navbar {
+  border: 1px solid grey;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+
+.navbar > div:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: white;
+}
+
+.searchBar {
+  padding: 7px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+  border-radius: 5px;
+}
+
+.infoContainer {
+  height: fit-content;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  border: 1px solid grey;
+}
+
+.infoContainer > div:nth-child(1) {
+  height: fit-content;
+}
+
+.infoContainer > div:nth-child(2) {
+  height: fit-content;
+}
+
+.alertTxt {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: start;
+  padding: 20px;
+}
+
+.profile {
+  border: 1px solid rgb(82, 82, 82);
+  width: 25%;
+  padding: 20px;
+}
+
+.profile > div {
+  margin: auto;
+}
+
+.profileLogo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileInfo {
+  color: white;
+  text-align: start;
+}
+
+.profileInfo > p {
+  margin: 0px;
+}
+
+.profileInfo > p:nth-child(1) {
+  font-size: 30px;
+}
+
+.profileInfo > p:nth-child(2) {
+  color: grey;
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  height: 30px;
+}
+
+.repos {
+  border: 1px solid rgb(86, 85, 85);
+  width: 100%;
+  padding: 20px;
+}
+
+.searchRepo {
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchRepo > select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.searchRepo > input {
+  padding: 7px;
+  border-radius: 5px;
+  width: 500px;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+}
+
+.reposContainer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.paginationDiv {
+  padding: 20px;
+  color: white;
+}
+
+.paginationBtn > div {
+  width: fit-content;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.paginationBtn > div {
+  cursor: pointer;
+  &:hover{
+    background-color: black;
+    outline: 1px solid white;
+    color: white;
+  }
+}
+
+.paginationBtn > div:nth-child(2) {
+  background-color: transparent;
+  color: white;
+  &:hover{
+    outline: none;
+    cursor:inherit;
+  }
+}
+
+.paginationBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
